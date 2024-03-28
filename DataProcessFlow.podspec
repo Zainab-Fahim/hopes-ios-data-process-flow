@@ -8,7 +8,6 @@ Pod::Spec.new do |s|
   s.source   = { :git => 'https://github.com/Zainab-Fahim/hopes-ios-data-process-flow.git', :tag => s.version }
   s.swift_version = '5.0'
   s.source_files = 'Sources/DataProcessFlow/**/*.{swift,h}'
-  s.public_header_files = 'Sources/DataProcessFlow/*.h'
   s.ios.deployment_target = '14.0'
 
   s.dependency "Valet", "~> 4.2.0"
