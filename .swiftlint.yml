@@ -1,0 +1,5 @@
+# Allow identifiers of length 1
+identifier_name:
+  min_length:
+    warning: 0
+    error: 0
